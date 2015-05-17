@@ -332,5 +332,6 @@ head(summary)
 
 ```r
 ## plot using ggplot2
-## ggplot(summary,aes(interval,steps)) + geom_line(color="blue", lwd=0.5) + facet_wrap(~day, ncol=1) + labs(title=expression("Weekend vs Weekday"))
+ ggplot(summary,aes(interval,steps)) + geom_line(color="blue", lwd=0.5) + facet_wrap(~day, ncol=1) + labs(title=expression("Weekend vs Weekday"))
 ```
+![](PA1_template_files/figure-html/unnamed-chunk-9-1.png) 
